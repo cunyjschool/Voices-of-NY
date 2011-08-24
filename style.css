@@ -1,5 +1,5 @@
 /*
-Theme Name: Voices of NY
+Theme Name: TheNews Child
 Description: Child theme for TheNews theme 
 Author: Rosaleen Ortiz
 Template: TheNews
@@ -305,17 +305,17 @@ a.readmore:hover{
 }
 
 h2.video {
-	background: url("/wp-content/themes/TheNews-child/images/media-icons/video-16px.png") no-repeat scroll 0 9px transparent;
+	background: url("images/media-icons/video-16px.png") no-repeat scroll 0 9px transparent;
 	padding-left: 22px;
 }
 
 h2.gallery {
-    background: url("/wp-content/themes/TheNews-child/images/media-icons/photo-16px.png") no-repeat scroll 0 9px transparent;
+    background: url("images/media-icons/photo-16px.png") no-repeat scroll 0 9px transparent;
 	padding-left: 22px;
 }
 
 h2.audio {
-    background: url("/wp-content/themes/TheNews-child/images/media-icons/audio-16px.png") no-repeat scroll 0 9px transparent;
+    background: url("images/media-icons/audio-16px.png") no-repeat scroll 0 9px transparent;
 	padding-left: 22px;
 }
 
@@ -450,12 +450,12 @@ h3.widget-title {
 
 
 h3.video {
-	background: url("/wp-content/themes/TheNews-child/images/media-icons/video-16px.png") no-repeat scroll 0 0 transparent;
+	background: url("images/media-icons/video-16px.png") no-repeat scroll 0 0 transparent;
 	padding-left: 20px;
 }
 
 h3.graphic {
-	background: url("/wp-content/themes/TheNews-child/images/media-icons/graphic-16px.png") no-repeat scroll 0 0 transparent;
+	background: url("images/media-icons/graphic-16px.png") no-repeat scroll 0 0 transparent;
 	padding-left: 20px;
 }
 
@@ -464,18 +464,18 @@ h3.none {
 }
 
 h3.gallery {
-    background: url("/wp-content/themes/TheNews-child/images/media-icons/photo-16px.png") no-repeat scroll 0 0 transparent;
+    background: url("images/media-icons/photo-16px.png") no-repeat scroll 0 0 transparent;
 	padding-left: 20px;
 }
 
 h3.audio {
-    background: url("/wp-content/themes/TheNews-child/images/media-icons/audio-16px.png") no-repeat scroll 0 0 transparent;
+    background: url("images/media-icons/audio-16px.png") no-repeat scroll 0 0 transparent;
 	padding-left: 20px;
 }
 
 
 #footer-widget-wrap .flexi-posts h3.video a{
-	background: url("/wp-content/themes/TheNews-child/images/media-icons/video-16px.png") no-repeat scroll 0 0 transparent;
+	background: url("images/media-icons/video-16px.png") no-repeat scroll 0 0 transparent;
 	padding-left: 50px;
 }
 
