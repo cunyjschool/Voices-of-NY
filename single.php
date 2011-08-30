@@ -31,7 +31,7 @@
 	                            <span class="meta_date"><?php the_time($theme->get_option('dateformat')); ?></span>
 	                        </div>
                             <?php  if($theme->display('categories', $get_post_elements)) {
-                                ?><span class="meta_categories"><?php _e( '', 'flexithemes' ); ?>  <?php exclude_post_categories('Uncategorized,Featured Posts,Top News', ', '); ?></span><?php
+                                ?><span class="meta_categories"><?php _e( '', 'flexithemes' ); ?>  <?php exclude_post_categories('Uncategorized,Featured Posts,Top News, In the News', ', '); ?></span><?php
                             }if($theme->display('edit_link', $get_post_elements))  {
                                     ?> &nbsp; <span class="meta_edit"><?php edit_post_link(); ?></span><?php
                                 } ?> 

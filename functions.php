@@ -321,17 +321,18 @@ function the_post_thumbnail_caption() {
      //Uncomment to show thumbnail title
      //echo $thumbnail_image[0]->post_title; 
 
-	//Uncomment to show the thumbnail alt field for PHOTO CREDIT
+/*	//Uncomment to show the thumbnail alt field for alt-text
      $alt = get_post_meta($thumb_id, '_wp_attachment_image_alt', true);
      if(count($alt)) 
 		echo "<span class='photo-caption'>";
 		echo $alt;
 		echo "</span><br />";
+*/
 
-	//Uncomment to show the thumbnail description
-	 //echo "<span class='photo-caption'>";
-     //echo "(Photo:".$thumbnail_image[0]->post_content; 
-	 //echo ")</span>";
+	//Uncomment to show the thumbnail description 
+	 echo "<span class='photo-caption'>";
+     echo $thumbnail_image[0]->post_content; 
+	 echo "</span><br/>";
 	
      //Uncomment to show the thumbnail caption
      echo $thumbnail_image[0]->post_excerpt; 
@@ -468,13 +469,5 @@ function cd_original_meta_save( $id )
   
 }
 
-//ADD JSCHOOL LINK TO SITE DESCRIPTION      
-function blog_filter($string, $show) {
-    if ( $show == "description" ) {
-        $string = str_replace('CUNY Graduate School of Journalism', '<a href="http://wwwjournalism.cuny.edu">CUNY Graduate School of Journalism</a>', $string);
-    }
-return $string;
-}
-add_filter('bloginfo', 'blog_filter', 10, 2 );
 
 ?>
