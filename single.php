@@ -67,7 +67,7 @@ $theme->display('source', $get_post_elements) || $theme->display('edit_link', $g
 	
                           <div class="postmeta-byline">  
                             <?php if($theme->display('author',$get_post_elements)) { 
-                                   ?> &nbsp; <span class="meta_author">By <?php coauthors_posts_links(); ?></span><?php
+                                   ?> &nbsp; <span class="meta_author">By <?php the_author(); ?></span><?php
                                 }
 								$taxo_text = "";
 								$source_list = get_the_term_list( $post->ID, 'source', '', ', ', '' );  
