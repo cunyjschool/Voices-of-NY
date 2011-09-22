@@ -30,7 +30,7 @@
                         
                         <div class="postmeta-byline">			
                             <?php if($theme->display('author',$get_post_elements)) { 
-                                   ?> &nbsp; <span class="meta_author">By <?php coauthors_posts_links(); ?></span><?php
+                                   ?> &nbsp; <span class="meta_author">By <?php the_author(); ?></span><?php
                                 
 	                                }if($theme->display('comments', $get_post_elements) && comments_open( get_the_ID() ))  {
                                     ?> &nbsp; <span class="meta_comments"><?php comments_popup_link( __( 'No comments', 'flexithemes' ), __( '1 Comment', 'flexithemes' ), __( '% Comments', 'flexithemes' ) ); ?></span><?php
